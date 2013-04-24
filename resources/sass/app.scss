@@ -1,0 +1,46 @@
+// The following two lines import the default Sencha Touch theme. If you are building
+// a new theme, remove them and the add your own CSS on top of the base CSS (which
+// is already included in your app.json file).
+@import 'sencha-touch/default';
+@import 'sencha-touch/default/all';
+
+// Custom code goes here..
+
+// Examples of using the icon mixin:
+// @include icon('user');
+
+/**
+ * This is the custom CSS uses in the getting_started example
+ */
+
+.home {
+    text-align: center;
+}
+
+.home h1 {
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+.home p {
+    color: #666;
+    font-size: 0.8em;
+    line-height: 1.6em;
+    margin: 10px 20px 20px 20px;
+}
+
+.home img {
+    margin-top: -10px;
+}
+
+.home h2 {
+    color: #999;
+    font-size: 0.7em;
+}
+
+.blog p {
+    color: #555;
+    padding: 20px 20px 0 20px;
+    font-size: 1em;
+    line-height: 1.4em;
+}
